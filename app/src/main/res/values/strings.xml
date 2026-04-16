@@ -1,3 +1,39 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">University Event Management App</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">E-Commerce Product Listing App</string>
+=======
+    <string name="app_name">Student Registration App</string>
+    <string name="title_registration">Student Registration Form</string>
+    <string name="hint_student_id">Enter Student ID</string>
+    <string name="hint_full_name">Enter Full Name</string>
+    <string name="hint_email">Enter Email Address</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_age">Enter Age</string>
+    <string name="label_gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="label_favorite_sports">Favorite Sports</string>
+    <string name="sport_football">Football</string>
+    <string name="sport_cricket">Cricket</string>
+    <string name="sport_basketball">Basketball</string>
+    <string name="sport_badminton">Badminton</string>
+    <string name="label_select_country">Select Country</string>
+    <string name="label_date_of_birth">Date of Birth</string>
+    <string name="btn_select_date">Select Date</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_reset">Reset</string>
+
+    <string-array name="countries_array">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Canada</item>
+    </string-array>
+>>>>>>> 92d34802c73be524b9ed8c8bcae072d8130a2bab
+>>>>>>> 17ad233603d79270c303dbe930f45e713681f1ef
 </resources>
