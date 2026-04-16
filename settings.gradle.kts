@@ -22,6 +22,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "E-Commerce Product Listing App"
 include(":app")
  
+=======
+rootProject.name = "Student Registration Form App"
+include(":app")
+>>>>>>> 92d34802c73be524b9ed8c8bcae072d8130a2bab
