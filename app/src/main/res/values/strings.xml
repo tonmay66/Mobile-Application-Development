@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Photo Gallery App</string>
+    <string name="all">All</string>
+    <string name="nature">Nature</string>
+    <string name="city">City</string>
+    <string name="animals">Animals</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="back">Back</string>
+    <string name="selected_format">%d selected</string>
+    <string name="photo_deleted_format">%d photos deleted</string>
+    <string name="sharing_format">Sharing %d photos</string>
+    <string name="photo_added">Photo added</string>
+</resources>
