@@ -1,3 +1,70 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Contact Book App</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">NewsReaderApp</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">Photo Gallery App</string>
+    <string name="all">All</string>
+    <string name="nature">Nature</string>
+    <string name="city">City</string>
+    <string name="animals">Animals</string>
+    <string name="food">Food</string>
+    <string name="travel">Travel</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="back">Back</string>
+    <string name="selected_format">%d selected</string>
+    <string name="photo_deleted_format">%d photos deleted</string>
+    <string name="sharing_format">Sharing %d photos</string>
+    <string name="photo_added">Photo added</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">In-App Browser &amp; Learning Portal App</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">University Event Management App</string>
+=======
+<<<<<<< HEAD
+    <string name="app_name">E-Commerce Product Listing App</string>
+=======
+    <string name="app_name">Student Registration App</string>
+    <string name="title_registration">Student Registration Form</string>
+    <string name="hint_student_id">Enter Student ID</string>
+    <string name="hint_full_name">Enter Full Name</string>
+    <string name="hint_email">Enter Email Address</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_age">Enter Age</string>
+    <string name="label_gender">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+    <string name="label_favorite_sports">Favorite Sports</string>
+    <string name="sport_football">Football</string>
+    <string name="sport_cricket">Cricket</string>
+    <string name="sport_basketball">Basketball</string>
+    <string name="sport_badminton">Badminton</string>
+    <string name="label_select_country">Select Country</string>
+    <string name="label_date_of_birth">Date of Birth</string>
+    <string name="btn_select_date">Select Date</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_reset">Reset</string>
+
+    <string-array name="countries_array">
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Canada</item>
+    </string-array>
+>>>>>>> 92d34802c73be524b9ed8c8bcae072d8130a2bab
+>>>>>>> 17ad233603d79270c303dbe930f45e713681f1ef
+>>>>>>> 531ca80b51bfc395e069b3e39bd4d405347e14d5
+>>>>>>> 86b314acfd5e407b5ffbf56abd692d6c9914aff2
+>>>>>>> 68fbabf14224cb53a4b70bac2b79aa882e5bf447
+>>>>>>> f322a597384b93e401cd209c683458f6de2ff280
 </resources>
