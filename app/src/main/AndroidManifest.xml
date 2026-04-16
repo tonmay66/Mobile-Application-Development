@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+=======
+>>>>>>> 531ca80b51bfc395e069b3e39bd4d405347e14d5
+>>>>>>> 86b314acfd5e407b5ffbf56abd692d6c9914aff2
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,20 +19,73 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.PhotoGalleryApp">
+=======
+<<<<<<< HEAD
+        android:theme="@style/Theme.InAppBrowserLearningPortalApp">
+=======
+<<<<<<< HEAD
+        android:theme="@style/Theme.UniversityEventManagementApp">
+=======
+<<<<<<< HEAD
+        android:theme="@style/Theme.ECommerceProductListingApp">
+=======
+        android:theme="@style/Theme.StudentRegistrationFormApp">
+>>>>>>> 92d34802c73be524b9ed8c8bcae072d8130a2bab
+>>>>>>> 17ad233603d79270c303dbe930f45e713681f1ef
+>>>>>>> 531ca80b51bfc395e069b3e39bd4d405347e14d5
+>>>>>>> 86b314acfd5e407b5ffbf56abd692d6c9914aff2
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
+<<<<<<< HEAD
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+=======
+<<<<<<< HEAD
+            android:theme="@style/Theme.InAppBrowserLearningPortalApp">
+=======
+<<<<<<< HEAD
+            android:theme="@style/Theme.UniversityEventManagementApp">
+=======
+<<<<<<< HEAD
+            android:theme="@style/Theme.ECommerceProductListingApp">
+=======
+            android:theme="@style/Theme.StudentRegistrationFormApp">
+>>>>>>> 92d34802c73be524b9ed8c8bcae072d8130a2bab
+>>>>>>> 17ad233603d79270c303dbe930f45e713681f1ef
+>>>>>>> 531ca80b51bfc395e069b3e39bd4d405347e14d5
+>>>>>>> 86b314acfd5e407b5ffbf56abd692d6c9914aff2
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".FullscreenActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+        <activity android:name=".EventsListActivity" />
+        <activity android:name=".EventDetailActivity" />
+        <activity android:name=".SeatBookingActivity" />
+=======
+<<<<<<< HEAD
+        <activity
+            android:name=".CartActivity"
+            android:exported="false"
+            android:label="My Cart"
+            android:theme="@style/Theme.ECommerceProductListingApp" />
+=======
+>>>>>>> 92d34802c73be524b9ed8c8bcae072d8130a2bab
+>>>>>>> 17ad233603d79270c303dbe930f45e713681f1ef
+>>>>>>> 531ca80b51bfc395e069b3e39bd4d405347e14d5
+>>>>>>> 86b314acfd5e407b5ffbf56abd692d6c9914aff2
     </application>
 
 </manifest>
