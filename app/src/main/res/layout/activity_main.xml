@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Custom Toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="?attr/colorPrimary">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="◀"
+            style="?android:attr/buttonStyleSmall" />
+
+        <Button
+            android:id="@+id/btnForward"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="▶"
+            style="?android:attr/buttonStyleSmall" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="🔄"
+            style="?android:attr/buttonStyleSmall" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="🏠"
+            style="?android:attr/buttonStyleSmall" />
+
+    </LinearLayout>
+
+    <!-- Address Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Enter URL"
+            android:inputType="textUri"
+            android:imeOptions="actionGo" />
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- Shortcut Buttons -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btnGoogle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Google" android:layout_margin="2dp"/>
+            <Button android:id="@+id/btnYoutube" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="YouTube" android:layout_margin="2dp"/>
+            <Button android:id="@+id/btnWikipedia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wikipedia" android:layout_margin="2dp"/>
+            <Button android:id="@+id/btnKhanAcademy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Khan Academy" android:layout_margin="2dp"/>
+            <Button android:id="@+id/btnUniversity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="University" android:layout_margin="2dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- WebView -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
